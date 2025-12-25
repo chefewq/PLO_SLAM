@@ -9,6 +9,8 @@ lib/*.a
 lib/*.dylib
 lib/*.dll
 
+models/
+
 # Object files
 *.o
 *.ko
