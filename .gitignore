@@ -3,6 +3,14 @@ build/
 */build/
 cmake-build-*/
 
+# SLAM vocab / large data
+Vocabulary/ORBvoc.txt
+Vocabulary/*.txt
+
+# models
+model/
+models/
+
 # Compiled libraries
 lib/*.so
 lib/*.a
