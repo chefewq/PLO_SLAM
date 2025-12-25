@@ -1,0 +1,1 @@
+../Examples/RGB-D/rgbd_tum ../Vocabulary/ORBvoc.txt ../Examples/RGB-D/ORIS.yaml /home/haochen/slam/data/OpenLORIS-Scene/package/corridor1-4 /home/haochen/slam/data/OpenLORIS-Scene/package/corridor1-4/associate.txt 

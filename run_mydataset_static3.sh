@@ -1,0 +1,1 @@
+./Examples/RGB-D/rgbd_tum ./Vocabulary/ORBvoc.txt /home/haochen/slam/POL-SLAM/Examples/RGB-D/d435i_static.yaml /home/haochen/slam/data/mybag/my_dataset3 /home/haochen/slam/data/mybag/my_dataset3/associate.txt

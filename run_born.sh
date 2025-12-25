@@ -1,0 +1,1 @@
+./Examples/RGB-D/rgbd_tum ./Vocabulary/ORBvoc.txt ./Examples/RGB-D/TUM3.yaml /home/haochen/slam/data/rgbd_bonn_kidnapping_box /home/haochen/slam/data/rgbd_bonn_kidnapping_box/associate.txt

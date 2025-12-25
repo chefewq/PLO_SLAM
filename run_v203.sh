@@ -1,0 +1,1 @@
+./Examples/Stereo/stereo_euroc ./Vocabulary/ORBvoc.txt ./Examples/Stereo/EuRoC.yaml /home/haochen/slam/data/v203/ ./Examples/Stereo/EuRoC_TimeStamps/V203.txt 
