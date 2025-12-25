@@ -1,0 +1,102 @@
+# Build directories
+build/
+*/build/
+cmake-build-*/
+
+# Compiled libraries
+lib/*.so
+lib/*.a
+lib/*.dylib
+lib/*.dll
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Executable files
+Examples/Monocular/mono_*
+Examples/Stereo/stereo_*
+Examples/RGB-D/rgbd_*
+Examples/ROS/*
+
+# Data files - trajectories and results
+CameraTrajectory.txt
+KeyFrameTrajectory.txt
+POL_CameraTrajectory.txt
+POL_KeyFrameTrajectory.txt
+*_CameraTrajectory.txt
+*_KeyFrameTrajectory.txt
+
+# Data files - feature extraction and matching
+*_extract.txt
+*_match.txt
+line_extract.txt
+line_match.txt
+orb_extract.txt
+orb_match.txt
+
+# Point cloud data
+*.pcd
+*.ply
+*.xyz
+resultPointCloudFile.pcd
+
+# Map files
+*.atlas
+*.bin
+*.map
+sparse_map_*.atlas
+
+# Dataset directories (add your dataset paths)
+Datasets/
+datasets/
+data/
+Data/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Python files (if any)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# CMake files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+
+# ROS workspace build artifacts
+ros_ws/build/
+ros_ws/devel/
+ros_ws/install/
+ros_ws/.catkin_workspace
+ros_ws/src/CMakeLists.txt
+
+# Backup files
+*.bak
+*.backup
+
+# Compressed files
+*.tar.gz
+*.zip
+*.rar
+
+# Claude Code directory
+.claude/
